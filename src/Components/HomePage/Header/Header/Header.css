@@ -1,0 +1,45 @@
+.headerSection{
+  background:#221f1f
+}
+.headerBackground {
+  background: url("../../Home/Untitled-2.jpg");
+  height: 100vh;
+  background-position: fill;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  clip-path: circle(200vh at 50% -100vh);
+}
+.Thohanur{
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size:2em;
+  -webkit-text-fill-color:transparent;
+  -webkit-text-stroke-width:1px ;
+}
+.Header-Typical {
+  color: #fff;
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50);
+  -ms-transform: translateY(-50);
+  justify-content: flex-end;
+  align-items: center;
+}
+.Header-Typical h1 {
+  font-size: 60px !important;
+}
+@media (max-width: 768px) {
+  .Header-Typical {
+    top: 60%;
+    left: 10%;
+  }
+  .Header-Typical p {
+    font-size: 20px !important;
+  }
+  .Header-Typical h1 {
+    font-size: 40px !important;
+  }
+}

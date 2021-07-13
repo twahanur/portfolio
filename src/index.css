@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.facebook {
+  color: #1877f2;
+}
+.instagram {
+  color: #e4405f;
+}
+.linkdin {
+  color: #0a66c2;
+}
+.github {
+  color: #fff;
+}
+.twitter {
+  color: #1da1f2;
+}
+.dribble {
+  color: #EA4C89
+}
