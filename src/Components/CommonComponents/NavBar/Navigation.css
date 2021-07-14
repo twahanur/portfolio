@@ -1,0 +1,45 @@
+
+.navigationLogo{
+    height: 5vh;
+    width:25vw;
+}
+.navigationLogo img{
+    display:block;
+    height:100%;
+    width:100%;
+}
+
+@media (min-width:200px) and (max-width:399px){
+    .navigationLogo{
+        height: 5vh;
+        width:50vw;
+    }
+    .navigationLogo img{
+        display:block;
+        height:100%;
+        width:100%;
+    }
+  }
+  @media (min-device-width : 400px) and (max-device-width : 768px){
+    .navigationLogo{
+        height: 5vh;
+        width:45vw;
+    }
+    .navigationLogo img{
+        display:block;
+        height:100%;
+        width:100%;
+    }
+  }
+  @media (min-device-width : 769px)and (max-device-width : 999px){
+    .navigationLogo{
+        height: 5vh;
+        width:35vw;
+    }
+    .navigationLogo img{
+        display:block;
+        height:100%;
+        width:100%;
+    }
+  }
+  

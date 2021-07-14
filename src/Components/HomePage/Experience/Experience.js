@@ -34,7 +34,7 @@ const Experience = () => {
                 <div className="col-md-6 col-sm-12 col-lg-6 pt-5" data-aos="slide-up"
                     data-aos-offset="100"
                     data-aos-delay="50"
-                    data-aos-duration="3000"
+                    data-aos-duration="2000"
                     data-aos-easing="ease-in-out">
                     <div className="">
                         <div className="mt-5 mb-5 text-white fs-1">

@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo from './Logo.png'
+import './Navigation.css'
 import {
     Route,
     Link
@@ -10,7 +11,7 @@ const NavBar = () => {
         <div>
             <nav className="navbar navbar-expand-lg navbar-light ps-4 pe-4 fixed-top text-white bg-dark">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#"><img src={Logo} style={{height: "5vh",width: "30vh",}} alt="" /></a>
+                    <a className="navbar-brand navigationLogo" href="#"><img src={Logo}  alt="" /> </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -20,7 +21,7 @@ const NavBar = () => {
                              <a className="nav-link text-white ps-4 pe-4" href="#About">ABOUT</a> 
                              <a className="nav-link text-white ps-4 pe-4" href="#Experience">EXPERIENCE</a> 
                              <a className="nav-link text-white ps-4 pe-4" href="#Projects">PROJECTS</a> 
-                             <a className="nav-link text-white ps-4 pe-4" href="#Projects">Blog</a> 
+                             <a className="nav-link text-white ps-4 pe-4" href="#Blog">Blog</a> 
                              <a className="nav-link text-white ps-4 pe-4" href="#Contact">CONTACT</a> 
                         </div>
                         <div className="navbar-nav ms-auto">+8801708902648</div>

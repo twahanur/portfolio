@@ -7,6 +7,7 @@ import html1 from './html1.jpg';
 import html2 from './html2.jpg';
 import html3 from './html3.jpg';
 import css1 from './css1.jpg';
+import css3 from './css3.jpg';
 import js1 from './js1.jpg';
 import js2 from './js2.jpg';
 import js3 from './js3.jpg';
@@ -21,12 +22,12 @@ const Projects = () => {
     const imgs = [
 
         //all
-        { author: "Fast-Travell", tag: "All", code: "https://github.com/Porgramming-Hero-web-course/react-auth-Thohanur", livesite: "https://fast-travell.web.app/", details: "A full stack site for a e-commerce site with authentication and admin panel using react node mongo firebase", src: `${full3}` },
         { author: "Deshi Trolly", tag: "All", code: "https://github.com/Porgramming-Hero-web-course/full-stack-server-Thohanur", livesite: "https://deshi-trolly.web.app/", details: "A full stack site for a e-commerce site with authentication and admin panel using react node mongo firebase", src: `${full2}` },
+        { author: "Fast-Travell", tag: "All", code: "https://github.com/Porgramming-Hero-web-course/react-auth-Thohanur", livesite: "https://fast-travell.web.app/", details: "A full stack site for a e-commerce site with authentication and admin panel using react node mongo firebase", src: `${full3}` },
         { author: "Team Builder", tag: "All", code: "https://github.com/Porgramming-Hero-web-course/simple-react-Thohanur", livesite: "https://make-your-football-tram.netlify.app/", details: "A simple react project using react hook and react router dom", src: `${react2}` },
         { author: "Basic E-commerce", tag: "All", code: "https://github.com/Thohanur/penguin-ecommerce", livesite: "https://thohanur.github.io/penguin-ecommerce/", details: "Basic html and css projects. using css Flex-Box property for made structure", src: `${html2}` },
         { author: "Testy Treate", tag: "All", code: "https://github.com/Thohanur/Testy-Treat", livesite: "https://thohanur.github.io/Testy-Treat/", details: "Restaurent design with dynamic search option using js and design with bootstrap and css", src: `${js3}` },
-        { author: "Mega City Bus", code: "https://github.com/Thohanur/Mega-city-bus", livesite: "https://thohanur.github.io/Mega-city-bus/", tag: "All", details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quaerat aliquid officiis, harum sit at.", src: `${citybus}` },
+        { author: "Mega City Bus", code: "https://github.com/Thohanur/Mega-city-bus", livesite: "https://thohanur.github.io/Mega-city-bus/", tag: "All", details: "mega city bus is a calculating project of java script fot counting cost", src: `${citybus}` },
         { author: "Shopping Cart", tag: "All", code: "https://github.com/Thohanur/mobile-shopping-card", livesite: "https://thohanur.github.io/mobile-shopping-card/", details: "Shopping cart calculation made using java script and sedign using css", src: `${js2}` },
         
         { author: "Basic HTML", tag: "All", code: "https://github.com/Thohanur/fun-project-waiving", livesite: "https://thohanur.github.io/fun-project-waiving/", details: "It's a basic html and css projects. using css position property for made structure", src: `${css1}` },
@@ -49,14 +50,16 @@ const Projects = () => {
         { author: "T-Commerce", tag: "CSS", code: "https://github.com/Thohanur/Thohanur-T-Commerce", livesite: "https://thohanur.github.io/Thohanur-T-Commerce/", details: "A e commerce site design using Bootstrap and css. added carosol and many kinds of effects", src: `${html3}` },
 
         { author: "Basic HTML", tag: "CSS", code: "https://github.com/Thohanur/NewPortpholio", livesite: "https://thohanur.github.io/NewPortpholio/", details: "It's a basic html and css projects. using css position property for made structure", src: `${html1}` },
+        
+        { author: "Basic HTML", tag: "CSS", code: "https://github.com/Thohanur/Fun-project-mooving-cursor", livesite: "https://thohanur.github.io/Fun-project-mooving-cursor/", details: "It's funny time pass css projects. using css and js window pointer porterity for detact cursur then design it", src: `${css3}` },
 
         { author: "Basic HTML", tag: "CSS", code: "https://github.com/Thohanur/fun-project-waiving", livesite: "https://thohanur.github.io/fun-project-waiving/", details: "It's a basic html and css projects. using css position property for made structure", src: `${css1}` },
 
 
         //js       
         { author: "Testy Treate", tag: "JS", code: "https://github.com/Thohanur/Testy-Treat", livesite: "https://thohanur.github.io/Testy-Treat/", details: "Restaurent design with dynamic search option using js and design with bootstrap and css", src: `${js3}` },
-        { author: "Thoha-Bank", tag: "JS", code: "https://github.com/Thohanur/T-Bank", livesite: "https://thohanur.github.io/T-Bank/", details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quaerat aliquid officiis, harum sit at.", src: `${js1}` },
-        { author: "Mega City Bus", code: "https://github.com/Thohanur/Mega-city-bus", livesite: "https://thohanur.github.io/Mega-city-bus/", tag: "JS", details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quaerat aliquid officiis, harum sit at.", src: `${citybus}` },
+        { author: "Thoha-Bank", tag: "JS", code: "https://github.com/Thohanur/T-Bank", livesite: "https://thohanur.github.io/T-Bank/", details: "A simple calculation like a calculator made with js  design with boorstrap. its can calculate deposit and withdraw of a bank", src: `${js1}` },
+        { author: "Mega City Bus", code: "https://github.com/Thohanur/Mega-city-bus", livesite: "https://thohanur.github.io/Mega-city-bus/", tag: "JS", details: "mega city bus is a calculating project of java script fot counting cost", src: `${citybus}` },
         { author: "Shopping Cart", tag: "JS", code: "https://github.com/Thohanur/mobile-shopping-card", livesite: "https://thohanur.github.io/mobile-shopping-card/", details: "Shopping cart calculation made using java script and sedign using css", src: `${js2}` },
 
 

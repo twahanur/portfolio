@@ -54,11 +54,7 @@ const ContactForm = () => {
                     </div>
                 </div>
 
-                <div className="row row-cols-2 direction py-5 mb-5" data-aos="slide-up"
-                    data-aos-offset="300"
-                    data-aos-delay="50"
-                    data-aos-duration="2000"
-                    data-aos-easing="ease-in-out">
+                <div className="row row-cols-2 direction py-5 mb-5">
                     <div className="col-sm-3 col-md-3">
                         <div className="icon d-flex justify-content-start ps-5"><i><MdLocationCity /></i></div>
                         <h3 className="fw-bold">Address</h3>

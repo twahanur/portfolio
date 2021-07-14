@@ -9,7 +9,7 @@ const About = () => {
     useEffect(() => {
         AOS.init(
             {
-                offset: 300,
+                offset: 200,
                 duration: 1000,
                 easing: 'ease',
             }
@@ -18,11 +18,11 @@ const About = () => {
     return (
         <div className="About-Container" id="About">
             <div className="row container m-auto">
-                <div className="col-md-6 col-sm-12 img" data-aos="fade-right">
+                <div className="col-md-6 col-sm-12 img" data-aos="fade-up">
                     <img src={AboutImg} className="img-fluid" />
                 </div>
                 <div className="col-md-12 col-lg-6 col-sm-12 text-white   d-flex align-items-center justify-content-end">
-                    <div data-aos="fade-left">
+                    <div data-aos="fade-up">
                         <h1>Hello, <Typical className="text-info "
                             loop={Infinity}
                             wrapper="i"
