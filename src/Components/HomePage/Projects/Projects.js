@@ -98,9 +98,9 @@ const Projects = () => {
             <div className="Projects-Section" id="Projects">
                 <div className="container">
                     <div data-aos="slide-up"
-                        data-aos-offset="300"
+                        data-aos-offset="100"
                         data-aos-delay="50"
-                        data-aos-duration="2000"
+                        data-aos-duration="500"
                         data-aos-easing="ease-in-out">
                         <div className=" text-center Project-Text">My Projects</div>
                         <ul className="text-center pb-5">
@@ -109,9 +109,9 @@ const Projects = () => {
                         </ul>
                     </div>
                     <div className="row " data-aos="slide-up"
-                        data-aos-offset="00"
+                        data-aos-offset="50"
                         data-aos-delay="50"
-                        data-aos-duration="3000"
+                        data-aos-duration="1000"
                         data-aos-easing="ease-in-out">
                         {imgs.filter(tag => tag.tag === projects).map(data => <div className="col-md-6 col-sm-10  col-lg-4 mb-2">
                             <div className="box">

@@ -39,11 +39,7 @@ const ProjectSlider = () => {
     return (
         <div className="Body">
             
-            <div data-aos="slide-up"
-                    data-aos-offset="50"
-                    data-aos-delay="20"
-                    data-aos-duration="500"
-                    data-aos-easing="ease-in-out">
+            <div>
                         <h1 className="fs-1 fw-bold text-center text-info">Languages I Used</h1>
             <Swiper
                 effect={"coverflow"}

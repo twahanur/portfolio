@@ -17,9 +17,9 @@ const Experience = () => {
         <div className="ExperienceSection" id="Experience">
             <div className="row container m-auto">
                 <div className="col-md-6 col-sm-12 col-lg-6" data-aos="slide-up"
-                    data-aos-offset="100"
+                    data-aos-offset="50"
                     data-aos-delay="50"
-                    data-aos-duration="2000"
+                    data-aos-duration="1000"
                     data-aos-easing="ease-in-out">
                     <div className="experienceYear">
                         <h1>2<span style={{ color: 'red' }}>.</span></h1>
@@ -32,7 +32,7 @@ const Experience = () => {
                     </div>
                 </div>
                 <div className="col-md-6 col-sm-12 col-lg-6 pt-5" data-aos="slide-up"
-                    data-aos-offset="100"
+                    data-aos-offset="20"
                     data-aos-delay="50"
                     data-aos-duration="2000"
                     data-aos-easing="ease-in-out">

@@ -93,7 +93,7 @@ const ContactForm = () => {
 
 
                 <div className="mx-auto mt-lg-5 mt-md-3 mt-sm-2">
-                    <h1 className="text-start text-info fw-bold">Fell Free To Contact With Me</h1>
+                    <h1 className="text-start text-white fw-bold">Fell Free To Contact With Me</h1>
                     <form className="pt-5 pb-5 form d-flex justify-content-center" onSubmit={sendEmail}>
                         <div className="row">
                             <div className="col-12 mx-auto form-group">

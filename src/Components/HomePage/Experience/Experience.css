@@ -1,5 +1,4 @@
 .ExperienceSection {
-  /* position: relative; */
   height: 110vh;
   background:url('./experience.jpg');
   background-position: cover;
@@ -69,7 +68,7 @@
 }
 @media (min-width:200px) and (max-width:399px){
   .ExperienceSection {
-    height: 200vh;
+    height: 230vh;
   }
   .experienceYear {
     width: 100%;

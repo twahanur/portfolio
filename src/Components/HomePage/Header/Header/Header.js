@@ -17,23 +17,16 @@ const Header = () => {
                     <div className="Thohanur"
                         data-aos="fade-down-right"
                         data-aos-offset="200"
-                        data-aos-delay="100"
+                        data-aos-delay="10"
                         data-aos-duration="1500"
                         data-aos-easing="ease-in-out">
                         I'm Thohanur Rahman
                     </div>
                     <p className="fw-bold">
-                        {/* <span style={{ color: 'red' }}>W</span>
-        <span style={{ color: 'green' }}>E</span>
-        <span style={{ color: 'blue' }}>L</span>
-        <span style={{ color: 'orange' }}>C</span>
-        <span style={{ color: 'white' }}>O</span>
-        <span style={{ color: 'pink' }}>M</span>
-        <span style={{ color: 'yellow' }}>E</span> */}
                         <h2 className="text-info" 
                          data-aos="fade"
-                         data-aos-offset="200"
-                         data-aos-delay="200"
+                         data-aos-offset="50"
+                         data-aos-delay="100"
                          data-aos-duration="3000"
                          data-aos-easing="ease-in-out">WELCOME</h2>
                     </p>
